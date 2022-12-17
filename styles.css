@@ -268,3 +268,27 @@ button {
   }
 
 
+#float {
+  line-height: 0;
+  padding: 15px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(90, 40, 176);
+  /* float bottom left */
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1rem;
+}
+
+#float i {
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+#float:hover {
+  color: white;
+  transform: scale(1.025);
+  transition: 0.75s;
+}
+
